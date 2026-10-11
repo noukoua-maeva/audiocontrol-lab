@@ -1,0 +1,52 @@
+{
+  "backend": "synthetic",
+  "evidence": "synthetic software calibration only",
+  "n_clips": 6,
+  "groups": [
+    {
+      "attribute": "loudness",
+      "guidance_scale": 3.5,
+      "n_pair_seeds": 1,
+      "n_prompt_pairs": 1,
+      "n_usable": 1,
+      "success_rate": 1.0,
+      "success_ci_low": null,
+      "success_ci_high": null,
+      "mean_delta": 12.041199826559247,
+      "delta_ci_low": null,
+      "delta_ci_high": null,
+      "valid_prompt_pairs": 1,
+      "metric": "rms_dbfs"
+    },
+    {
+      "attribute": "pitch",
+      "guidance_scale": 3.5,
+      "n_pair_seeds": 1,
+      "n_prompt_pairs": 1,
+      "n_usable": 1,
+      "success_rate": 1.0,
+      "success_ci_low": null,
+      "success_ci_high": null,
+      "mean_delta": 439.99127456616816,
+      "delta_ci_low": null,
+      "delta_ci_high": null,
+      "valid_prompt_pairs": 1,
+      "metric": "f0_hz"
+    },
+    {
+      "attribute": "rate",
+      "guidance_scale": 3.5,
+      "n_pair_seeds": 1,
+      "n_prompt_pairs": 1,
+      "n_usable": 1,
+      "success_rate": 1.0,
+      "success_ci_low": null,
+      "success_ci_high": null,
+      "mean_delta": 2.8,
+      "delta_ci_low": null,
+      "delta_ci_high": null,
+      "valid_prompt_pairs": 1,
+      "metric": "event_rate_hz"
+    }
+  ]
+}

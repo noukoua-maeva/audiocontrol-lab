@@ -1,0 +1,4 @@
+pair_id,attribute,guidance_scale,seed,metric,threshold,low_value,high_value,delta,usable,success,low_clipping_fraction,high_clipping_fraction
+rain_loudness,loudness,3.5,17,rms_dbfs,1.0,-29.05411949910464,-17.012919672545394,12.041199826559247,True,True,0.0,0.0
+sine_pitch,pitch,3.5,17,f0_hz,50.0,220.4300651108125,660.4213396769807,439.99127456616816,True,True,0.0,0.0
+knocks_rate,rate,3.5,17,event_rate_hz,0.25,1.0,3.8,2.8,True,True,0.0,0.0

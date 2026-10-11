@@ -1,0 +1,4 @@
+attribute,guidance_scale,n_pair_seeds,n_prompt_pairs,n_usable,success_rate,success_ci_low,success_ci_high,mean_delta,delta_ci_low,delta_ci_high,valid_prompt_pairs,metric
+loudness,3.5,1,1,1,1.0,,,12.041199826559247,,,1,rms_dbfs
+pitch,3.5,1,1,1,1.0,,,439.99127456616816,,,1,f0_hz
+rate,3.5,1,1,1,1.0,,,2.8,,,1,event_rate_hz

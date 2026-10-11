@@ -1,0 +1,122 @@
+{
+  "config": {
+    "model_id": "analytic-controls",
+    "revision": "v1",
+    "duration_s": 5.0,
+    "steps": 50,
+    "negative_prompt": "Low quality.",
+    "guidance_scales": [
+      3.5
+    ],
+    "seeds": [
+      17
+    ],
+    "pairs": [
+      {
+        "id": "rain_loudness",
+        "attribute": "loudness",
+        "low": "A quiet recording of rain falling steadily.",
+        "high": "A loud recording of rain falling steadily."
+      },
+      {
+        "id": "sine_pitch",
+        "attribute": "pitch",
+        "low": "A low-pitched sound of a continuous pure electronic tone.",
+        "high": "A high-pitched sound of a continuous pure electronic tone."
+      },
+      {
+        "id": "knocks_rate",
+        "attribute": "rate",
+        "low": "A slow sequence of evenly spaced knocks on a wooden door.",
+        "high": "A fast sequence of evenly spaced knocks on a wooden door."
+      }
+    ]
+  },
+  "backend": "synthetic",
+  "device": "cpu",
+  "offload": false,
+  "fingerprint": "38d5b950ee45dcab628cb405e45adcf4ca6f3f8fb07f046627ea4a62688a033a",
+  "created_utc": "2026-10-10T20:30:55.007596+00:00",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "git_commit": null,
+  "status": "complete",
+  "records": [
+    {
+      "id": "rain_loudness_g3.5_s17_low",
+      "pair_id": "rain_loudness",
+      "attribute": "loudness",
+      "level": "low",
+      "prompt": "A quiet recording of rain falling steadily.",
+      "seed": 17,
+      "guidance_scale": 3.5,
+      "file": "audio/rain_loudness_g3.5_s17_low.wav",
+      "sample_rate": 16000,
+      "sha256": "747fe6c60367939da32bfee1b2a9dae6b136f0f1a05ed2caab346ea80ac0fe64"
+    },
+    {
+      "id": "rain_loudness_g3.5_s17_high",
+      "pair_id": "rain_loudness",
+      "attribute": "loudness",
+      "level": "high",
+      "prompt": "A loud recording of rain falling steadily.",
+      "seed": 17,
+      "guidance_scale": 3.5,
+      "file": "audio/rain_loudness_g3.5_s17_high.wav",
+      "sample_rate": 16000,
+      "sha256": "b79abee89793236b8c1ad68594e71a51042a1716e7b66b4ab2adc2654b305f8d"
+    },
+    {
+      "id": "sine_pitch_g3.5_s17_low",
+      "pair_id": "sine_pitch",
+      "attribute": "pitch",
+      "level": "low",
+      "prompt": "A low-pitched sound of a continuous pure electronic tone.",
+      "seed": 17,
+      "guidance_scale": 3.5,
+      "file": "audio/sine_pitch_g3.5_s17_low.wav",
+      "sample_rate": 16000,
+      "sha256": "7ec7384d02618ce9d0eb3e5a679dd52d40ac8cdecdace067d61dfc13fd8cac96"
+    },
+    {
+      "id": "sine_pitch_g3.5_s17_high",
+      "pair_id": "sine_pitch",
+      "attribute": "pitch",
+      "level": "high",
+      "prompt": "A high-pitched sound of a continuous pure electronic tone.",
+      "seed": 17,
+      "guidance_scale": 3.5,
+      "file": "audio/sine_pitch_g3.5_s17_high.wav",
+      "sample_rate": 16000,
+      "sha256": "338ee1fd413516db29f9646d60a92886c6aec238c4bbd730e8dcf0bae9d64f3c"
+    },
+    {
+      "id": "knocks_rate_g3.5_s17_low",
+      "pair_id": "knocks_rate",
+      "attribute": "rate",
+      "level": "low",
+      "prompt": "A slow sequence of evenly spaced knocks on a wooden door.",
+      "seed": 17,
+      "guidance_scale": 3.5,
+      "file": "audio/knocks_rate_g3.5_s17_low.wav",
+      "sample_rate": 16000,
+      "sha256": "eb35af48c1fdfe7054e86f3dd109d5175f143f90c5a0039ebc226e2084070351"
+    },
+    {
+      "id": "knocks_rate_g3.5_s17_high",
+      "pair_id": "knocks_rate",
+      "attribute": "rate",
+      "level": "high",
+      "prompt": "A fast sequence of evenly spaced knocks on a wooden door.",
+      "seed": 17,
+      "guidance_scale": 3.5,
+      "file": "audio/knocks_rate_g3.5_s17_high.wav",
+      "sample_rate": 16000,
+      "sha256": "b302fa1d5849d5701b1c905ad4f813348f029eb957ee06b73100aaaf466715fc"
+    }
+  ],
+  "evidence": "synthetic software calibration only"
+}
