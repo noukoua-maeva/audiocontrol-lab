@@ -1,0 +1,91 @@
+{
+  "model_id": "cvssp/audioldm2",
+  "revision": "main",
+  "duration_s": 5.0,
+  "steps": 50,
+  "negative_prompt": "Low quality.",
+  "guidance_scales": [
+    2.0,
+    3.5,
+    5.0
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "pairs": [
+    {
+      "id": "rain_loudness",
+      "attribute": "loudness",
+      "low": "A quiet recording of rain falling steadily.",
+      "high": "A loud recording of rain falling steadily."
+    },
+    {
+      "id": "engine_loudness",
+      "attribute": "loudness",
+      "low": "A quiet recording of a car engine idling steadily.",
+      "high": "A loud recording of a car engine idling steadily."
+    },
+    {
+      "id": "water_loudness",
+      "attribute": "loudness",
+      "low": "A quiet recording of water flowing in a stream.",
+      "high": "A loud recording of water flowing in a stream."
+    },
+    {
+      "id": "wind_loudness",
+      "attribute": "loudness",
+      "low": "A quiet recording of wind blowing steadily.",
+      "high": "A loud recording of wind blowing steadily."
+    },
+    {
+      "id": "sine_pitch",
+      "attribute": "pitch",
+      "low": "A low-pitched sound of a continuous pure electronic tone.",
+      "high": "A high-pitched sound of a continuous pure electronic tone."
+    },
+    {
+      "id": "whistle_pitch",
+      "attribute": "pitch",
+      "low": "A low-pitched sound of a sustained whistle.",
+      "high": "A high-pitched sound of a sustained whistle."
+    },
+    {
+      "id": "flute_pitch",
+      "attribute": "pitch",
+      "low": "A low-pitched sound of a single sustained flute note.",
+      "high": "A high-pitched sound of a single sustained flute note."
+    },
+    {
+      "id": "hum_pitch",
+      "attribute": "pitch",
+      "low": "A low-pitched sound of a continuous electronic hum.",
+      "high": "A high-pitched sound of a continuous electronic hum."
+    },
+    {
+      "id": "knocks_rate",
+      "attribute": "rate",
+      "low": "A slow sequence of evenly spaced knocks on a wooden door.",
+      "high": "A fast sequence of evenly spaced knocks on a wooden door."
+    },
+    {
+      "id": "bells_rate",
+      "attribute": "rate",
+      "low": "A slow sequence of evenly spaced separate strikes of a small bell.",
+      "high": "A fast sequence of evenly spaced separate strikes of a small bell."
+    },
+    {
+      "id": "beeps_rate",
+      "attribute": "rate",
+      "low": "A slow sequence of evenly spaced short electronic beeps.",
+      "high": "A fast sequence of evenly spaced short electronic beeps."
+    },
+    {
+      "id": "footsteps_rate",
+      "attribute": "rate",
+      "low": "A slow sequence of evenly spaced footsteps on a wooden floor.",
+      "high": "A fast sequence of evenly spaced footsteps on a wooden floor."
+    }
+  ]
+}

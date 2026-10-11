@@ -1,0 +1,33 @@
+{
+  "model_id": "analytic-controls",
+  "revision": "v1",
+  "duration_s": 5.0,
+  "steps": 50,
+  "negative_prompt": "Low quality.",
+  "guidance_scales": [
+    3.5
+  ],
+  "seeds": [
+    17
+  ],
+  "pairs": [
+    {
+      "id": "rain_loudness",
+      "attribute": "loudness",
+      "low": "A quiet recording of rain falling steadily.",
+      "high": "A loud recording of rain falling steadily."
+    },
+    {
+      "id": "sine_pitch",
+      "attribute": "pitch",
+      "low": "A low-pitched sound of a continuous pure electronic tone.",
+      "high": "A high-pitched sound of a continuous pure electronic tone."
+    },
+    {
+      "id": "knocks_rate",
+      "attribute": "rate",
+      "low": "A slow sequence of evenly spaced knocks on a wooden door.",
+      "high": "A fast sequence of evenly spaced knocks on a wooden door."
+    }
+  ]
+}
